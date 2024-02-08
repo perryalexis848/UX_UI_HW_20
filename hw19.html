@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  
+  @media only screen and (max-width: 1500x) {
+    body {
+      background-color: #E7EFFC;
+    }
+  }
+
+
+
+#Aboutme {
+  height: 600px;
+  background-color: pink;
+}
+
+#Skills {
+  height: 600px;
+  
+}
+
+#Projects {
+  height: 600px;
+
+}
+
+#Contact {
+  height: 600px;
+  
+}
+
+/* Create four equal columns */
+.column-left {
+  flex: 15%;
+  padding: 0px;
+  border-left-width: 0%;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 100%;
+}
+
+.column-center {
+  flex: 70%;
+  padding: 25px;
+  flex-direction: column;
+  display: grid;
+}
+
+.column-right {
+  flex: 15%;
+  padding: 5px;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 100%;
+  
+}
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1300px) {
+  .column {
+    flex: 100%;
+  }
+}
+
+
+#myDIV {
+
+  background-color:#E7EFFC;
+  border-image-source: ('Images/Leftborder.png');  
+  border-image-slice: 30;
+  border-image-width: 10px;
+  border-image-outset: 5px;
+  }
+  
+  .smimages{
+  float: right;
+  vertical-align: text-top;
+  
+  
+  }
+  
+  div.a {
+    background-color: #E7EFFC;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  
+  div.b {
+      
+    background-color: #E7EFFC;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  div.c {
+      
+    background-color: #E7EFFC;
+    padding-right: 30px;
+    padding-left: 50px;
+  }
+  
+      body {
+        width:99%;
+          background-color: #E7EFFC;
+  
+      }
+  
+      .bodyContainer{
+        width: 99%;
+        height: auto;
+        border: 2px solid E7EFFC;
+      }
+  
+      
+      h1 {
+        color: #1E1E1E;
+        font-family: Audiowide;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 92px;
+        letter-spacing: 0em;
+        text-align: center;
+        justify-content: center;
+  
+  
+      }
+    h2{
+      font-family: "Audiowide", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 46px;
+      letter-spacing: 0em;
+      text-align: left;
+  
+    }
+    h3{
+    font-family: "Audiowide", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: left;
+  
+  
+  }
+     p{
+      font-family: 'Changa', sans-serif;
+      color: #1E1E1E;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 37px;
+      text-align:justify;
+      padding: 5px;
+   }
+
+   p2{
+      font-family: 'Changa', sans-serif;
+      color: #1E1E1E;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 37px;
+      text-align:justify;
+      padding: 5px;
+   }
+  
+   .text-right {
+        text-align: right;
+        font-family: 'Changa', sans-serif;
+        color: #1E1E1E;
+      font-size: 24px;
+      font-weight: 500;
+      }
+  
+  
+  .topnav {
+      font-family: "Audiowide", sans-serif;
+      color: #000;
+      overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    padding: 30px 30px;
+    text-decoration: underline;
+    border: #E7EFFC;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #E7EFFC;
+    color: #BB42EB;
+  }
+      
+      
+  .responsive {
+    width: 100%;
+    height: auto;
+  }  
+  
+  
+      
+  .img { 
+      position:relative;
+      width: 100%;
+      }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+      .container img {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+  
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+  
+  
+      
+  
+  
+a:link, a:visited {
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+  color: #000;
+  text-decoration: underline;
+  
+}
+
+a:hover, a:active {
+  color: #BB42EB;
+}
+  
+  
+      
+  
+     .center-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+      .leftcolumn {   
+    float: left;
+    width: 70%;
+    background-color: #E7EFFC;
+  }
+  
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #E7EFFC;
+    padding-left: 50px;
+  }
+  
+  /* Fake image */
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color:#E7EFFC;
+    padding: 10px;
+    margin-top: 10px;
+      border:1px solid #E7EFFC;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Changa', sans-serif;
+      color: #1E1E1E;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 37px;
+    text-align: center;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-rows: 200px 20px;
+    grid-gap: 20px;
+    background-color: #E7EFFC;
+    
+  }
+  
+  .grid-container > div {
+    background-color: #E7EFFC;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #categoryGrid{
+    grid-template-rows: 300px 300px 300px
+    300px 300px;
+    grid-template-columns: 2fr;
+    grid-template-areas:none;
+  }
+  
+  hr.new2 {
+  border-top: 3px solid #FF0099;
+  padding-bottom: 180px;
+  width: 70%;
+}
+  
+
+
+
+
+    </style>
+  
+</head>
+   
+   
+    
+      <body>
+       
+        <script src="JS/index.js"></script>
+
+<div class="column-left"> <img src="Images/leftborder.png" alt="leftborder" width="auto" height="auto">
+</div>
+
+<div class="column-right"> <img src="Images/rightborder.png" alt="rightborder" width="auto" height="relative">
+
+</div>
+
+<div class="column-center">
+
+
+        <section>
+          <div id="myDIV">
+           
+          
+          <div class="topnav" style="float:right;">
+            <div class="main" id="contact">
+              <a href="#section4"  href="#">Contact</a>  
+            <a href="#section3">Projects</a>
+            <a href="#section2">Skills</a>
+            <a href="#section1">About Me</a> 
+            <a href="#">Home</a>
+             </div>
+            </div>
+                <div class="center-image">    
+          <img src="images/headerImg.png" alt="header design" WIDTH="1300PX" HEIGHT="AUTO"></div>
+          <div class="center-image">  
+         
+            <div id="div1"> <img src="Images/logo.png" alt="logo" width="150" height="auto">
+        </div>
+        </div>
+
+          <div class="bodyContainer" id="section1">
+          <h3>About me  <img src="images/aboutMeline.png" alt="aboutmeline" width="300px"></h3>
+          <div class="container">
+              <div class="card">
+            <div class="a"><img src="images/profileplusLine.png" alt="profile" style="float:right;width:400px;height:auto;">
+           
+           <p>I'm a freelance UX/UI designer who specializes in entertainment industry based UX/UI. I'm a re-known Music Producer and Dj, 
+          who has toured the U.S. several times. I'm passionate in all things creative and enjoy solving user problems and UI design. 
+          My skills include Figma, Miro, Google Drive, Spread Sheets, Slide decks, Canva, Trello, Paper, pencil, Ableton, photoshop,
+           Slack, and having a forward thinking approach to solve music industry related problems.</p>
+           <div class="c"> <img src="images/aboutme.png" alt="aboutme">
+          </div>
+        </div>
+      </div>
+        
+  </div>
+  </section>
+  
+  <section>
+    <div class="bodyContainer" id="section2">
+   <!--  My UX Skills section coded using CSS flex -->
+   <h3> my skills  <img src="Images/skillsLine.png" alt="skillsLine" width="500px" height="20px"></h3>
+  
+  
+   <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+    <h1>User Research</h1>
+  <div> <img src="Images/speaker.png" class="smimages" alt="speaker" width="210px" height="auto"> <p> My user research methodology encompasses the utilization of a storyboard, 
+      comprehensive testing plan, 
+      competitor analysis, and extensive surveys.</p>
+    </div> 
+    <h1>User Empathy</h1>
+    <div>
+       <img src="Images/tape.png" class="smimages" alt="tape" width="190px" height="auto"> <p>I use an entertainment industry focus based approach to my interviews to figure out pain points and 
+        find the best possible solutions.</p>
+      </div> 
+      <h1>Qualitative Interviews</h1>
+      <div>
+       <img src="Images/headphones.png" class="smimages" width="260px" height="auto"> <p>Example; I conducted interviews revolving around setting up a nation-wide tour and the pain points 
+          affiliated with doing so. From there, I made an Affinity map, and a matrix to identify high priority 
+          solutions.</p>
+        </div> 
+    </div>
+    </div>
+    
+  
+  
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Tools</h3>
+      
+  <p>
+      <br>Figma
+      <br>Miro
+      <br>Google Drive
+      <br>Spread Sheets
+      <br>Slide Decks
+      <br>Canva
+      <br>Trello
+      <br>Paper and Pencil
+      <br>Ableton Live
+      <br>WordPress
+      <br>Slack
+      <br>Github
+      <br>HTML
+      <br>CSS
+      <br>Visual Studio Code
+      <br>Photoshop</p>
+      <img src="Images/toolsUnder.png" alt="skills line">
+  </div>
+      
+    </div>
+   </div>
+  </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  <!-- My Work Section Constructed using CSS Grid -->
+  <section>
+    <div class="bodyContainer" id="section3">
+   <h3>projects  <img src="Images/projectLine.png" alt="skillsLine" width="600px" height="20px"></h3>
+   <div class="a">
+  <h1>Gone App</h1>
+ 
+  <div class="center-image">
+  <img src="Images/goneApppics.png" alt="gone app" width="1000px" height="auto"></div>
+  
+  <div class="grid-container">
+    
+  <p>Planning a tour is an ambitious endeavor that involves many moving parts. Smaller, less well-known
+  bands might struggle with the administrative burden a tour represents. Our team wants to help these 
+  bands reduce their frustration before, during, and after their travel. The GONE app will connect 
+  bandmates, managers, and other personnel by organizing the bookings in one place, allowing them to view
+   or change bookings in the app and have a singular way to communicate.</p>
+    </div>
+    
+    <div class="grid-container">
+      <p>Our goal was to develop an app for frequent travelers with complex schedules that fosters 
+        collaboration on an itinerary.</p>
+       <br> <a href="portfolio.html" target="_blank"><center>Read More</a></center>
+      
+     </div>
+   </div>
+     <hr class="new2">
+  
+  
+   
+
+  </section>
+  
+  <section>
+    <div class="bodyContainer" id="section3">
+  <div class="a">
+    <h1>Egyptian Theater Redesign</h1>
+    <div class="center-image">
+    <img src="Images/egyptianTheaterpics.png" alt="egyptian theater" width="859px" height="auto"></div>
+    
+    
+      
+      <div class="grid-container">
+        <p>The Egyptian Theatre, located in Park City, Utah is a historical non-profit establishment frequented
+          by numerous Sundance Festival Attendees and local patrons year-round. The Initial design lacked coherence 
+          and presented challenges in comprehensibility.</p>
+          </div>
+          
+           <div class="grid-container">
+            <p>Our objective was to strategically redesign it for enhanced organization, visual appeal and 
+            navigational ease.</p>
+            </div>
+              
+            </div>
+            <br> <a href="EgpytianTheater.html"><center>Read More</a></center>
+            
+           
+            
+  
+            <hr class="new2">
+    
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  <section>
+    <div class="bodyContainer" id="section4">
+    <div>
+  <h3>contact me  <img src="images/conactline.png" alt="contactme" width="700px" height="20px"></h3>
+           <div class="b">
+         <ul> <h2> <img src="images/blacklogo.png" alt="footer" width="75"> Alexis Perry UX UI Designer</h2> 
+          <h2> <img src="images/emaillogo.png" alt="footer" width="75">  Perryalexis848@gmail.com</h2> 
+          <h2> <img src="images/calllogo.png" alt="footer" width="75"> (909)289-6155</h2> 
+         </ul>
+  <img src="images/socials.png" alt="socials" width="100px" style="float: right;">
+  
+  
+          <h1>Copyright 2024</h1>
+      </div>
+     
+    </section>
+        
+      </div>
+     </div>
+    </div>
+    </div>
+      </body>
+  
+      
+      <script src="JS/index.js"></script>
+      </html>
